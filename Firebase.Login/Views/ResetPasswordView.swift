@@ -36,7 +36,7 @@ struct ResetPasswordView: View {
                 presentationMode.wrappedValue.dismiss()
             }
         }, message: {
-            Text("An email has been sent to the email address above. Please following the instructions in the email to reset your passowrd.")
+            Text("An email has been sent to the email address above. Please follow the instructions in the email to reset your passowrd.")
         })
     }
     

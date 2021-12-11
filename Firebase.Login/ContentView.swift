@@ -17,7 +17,7 @@ struct ContentView: View {
                     .padding(20)
 
                 VStack(spacing: 15) {
-                    TextField("Username", text: $vm.email)
+                    TextField("Email", text: $vm.email)
                         .font(.title2)
                         .textFieldStyle(.roundedBorder)
                         .autocapitalization(.none)
